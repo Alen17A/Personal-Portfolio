@@ -723,6 +723,19 @@ button {
 
 /* portfolio section end */
 
+/* skills section start */
+.skill-icon {
+            font-size: 40px;
+            color: #007bff;
+        }
+        .skill-card {
+            transition: transform 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+/* skills section end */
+
 
 /* blog section start */
 
@@ -791,7 +804,7 @@ button {
 
 .blog_img_3 {
     width: 100%;
-    background-image: url(../images/blog-img3.png);
+    background-image: url(../images/blue_origin.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
