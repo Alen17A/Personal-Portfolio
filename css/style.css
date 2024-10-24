@@ -231,7 +231,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner_me.png);
+    background-image: url(../images/banner_me\ -\ Copy.webp);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -623,12 +623,14 @@ button {
     width: 100%;
     float: left;
     padding-top: 30px;
+    border-radius: 10%;
 }
 
 .image {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10%;
 }
 
 .overlay {
@@ -643,6 +645,7 @@ button {
     transition: .5s ease;
     background-color: rgb(45, 45, 45, 0.5);
     margin: 0 auto;
+    border-radius: 10%;
 }
 
 .container_main {
@@ -772,7 +775,7 @@ button {
 
 .blog_img {
     width: 100%;
-    background-image: url(../images/blog-img1.png);
+    background-image: url(../images/Alimento.jpg);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -780,7 +783,7 @@ button {
 
 .blog_img_2 {
     width: 100%;
-    background-image: url(../images/blog-img2.png);
+    background-image: url(../images/S\ H\ College.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -903,6 +906,10 @@ input.mail_text::placeholder {
     color: #414140;
 }
 
+.error{
+    color: red;
+}
+
 .massage-bt {
     color: #414140;
     width: 100%;
@@ -925,7 +932,7 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
 }
 
-.send_bt a {
+.send_bt button {
     width: 100%;
     text-align: center;
     font-size: 16px;
